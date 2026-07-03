@@ -1,0 +1,5 @@
+{"instruction":"Extract all invoice fields and return ONLY JSON.","input":"Invoice No: INV-101 Vendor: ABC Pvt Ltd Date: 2024-01-10 Total: 5000 INR Item: Laptop x1 5000","output":"{\"vendor\":\"ABC Pvt Ltd\",\"invoice_number\":\"INV-101\",\"date\":\"2024-01-10\",\"due_date\":null,\"currency\":\"INR\",\"subtotal\":5000.0,\"tax\":null,\"total\":5000.0,\"line_items\":[{\"description\":\"Laptop\",\"quantity\":1,\"unit_price\":5000.0}]}"}
+
+
+
+
